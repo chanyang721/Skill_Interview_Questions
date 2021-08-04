@@ -57,36 +57,42 @@
 <details>
     <summary>면접에서 반드시 알고 들어가야 할 주제</summary>
     <p>
-        DataStucture
-        <ul>
-            <li>Linked Lists (연결 리스트)</li>
-            <li>Tree, Graph (트리, 그래프)</li>
-            <li>Stack, Queue (스택, 큐)</li>
-            <li>Heaps (힙)</li>
-            <li>Hash Table (해시 테이블)</li>
-        </ul>
+        <div>
+            <strong>DataStucture</strong>
+            <ul>
+                <li>Linked Lists (연결 리스트)</li>
+                <li>Tree, Graph (트리, 그래프)</li>
+                <li>Stack, Queue (스택, 큐)</li>
+                <li>Heaps (힙)</li>
+                <li>Hash Table (해시 테이블)</li>
+            </ul>
+        </div>
     </p>
     <p>
-        Algorithms
-        <ul>
-            <li>BFS (너비 우선 탐색)</li>
-            <li>DFS (깊이 우선 탐색)</li>
-            <li>Binary Search (이진 탐색)</li>
-            <li>Merge Sort (병합 정렬)</li>
-            <li>Quick Sort(퀵 정렬)</li>
-        </ul>
+        <div>
+            <strong>Algorithms</strong>
+            <ul>
+                <li>BFS (너비 우선 탐색)</li>
+                <li>DFS (깊이 우선 탐색)</li>
+                <li>Binary Search (이진 탐색)</li>
+                <li>Merge Sort (병합 정렬)</li>
+                <li>Quick Sort(퀵 정렬)</li>
+            </ul>
+        </div>
     </p>
     <p>
-        Concept
-        <ul>
-            <li>Bit Manipulation (비트 조작)</li>
-            <li>메모리 (스택 vs 힙)</li>
-            <li>recursion (재귀)</li>
-            <li>Dynamic programming (다이나믹 프로그래밍)</li>
-            <li>big-O (시간 복잡도))</li>
-        </ul>
+        <div>
+            <strong>Concept</strong>
+            <ul>
+                <li>Bit Manipulation (비트 조작)</li>
+                <li>메모리 (스택 vs 힙)</li>
+                <li>recursion (재귀)</li>
+                <li>Dynamic programming (다이나믹 프로그래밍)</li>
+                <li>big-O (시간 복잡도)</li>
+             </ul>
+        </div>  
     </p>
-</details>
+</details>  
 
 
 <h2>
