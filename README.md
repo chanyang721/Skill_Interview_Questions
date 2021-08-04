@@ -1,4 +1,10 @@
-# Skill_Interview_Questions
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <h1>Skill_Interview_Questions</h1>
 
 <h3>만든 이유</h3>
 <p>면접 준비를 시작하면서 블로깅 용도로 사용했던 노션보다 더 공개적인 gitHub에서 내가 정리한 내용에 대해서 사람들의 피드백을 받고 싶었습니다. 따로 공유하지 않으면 피드백을 받을 수 없던 노션의 아쉬운 부분을 채우고자 gitHub에서 블로깅 합니다.</p>
@@ -12,7 +18,6 @@
     <p></p>
 </details>
 
----
 
 <h2> 📌 면접 과정</h2>
 
@@ -94,7 +99,6 @@
     </p>
 </details>  
 
----
 
 <h2> 📌 면접 자료</h2>
 
@@ -147,12 +151,6 @@
 </ul>
 
 
-
-
-
----
----
-
 <h2>📌 Reference</h2>
 <ul>
     <li>
@@ -166,5 +164,7 @@
     <a href=""></a>
     <a href=""></a>
     <a href=""></a>
-
 </ul>
+
+</body>
+</html>
