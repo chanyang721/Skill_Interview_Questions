@@ -153,7 +153,7 @@
 ---
 
 <h2>Reference</h2>
-<a href="https://chanyang721.notion.site/96245a35406f46c5bf28d92056162774">내 노션 블로그</a>
+<a href="https://chanyang721.notion.site/96245a35406f46c5bf28d92056162774">My Notion Tech Blog</a> <br>
 <a href="https://gyoogle.dev/blog/guide/%EB%A9%B4%EC%A0%91%20%EC%A4%80%EB%B9%84.html">신입 개발자 전공 지식 & 기술 면접 백과사전 </a>
 
 <a href=""></a>
