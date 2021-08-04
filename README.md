@@ -95,7 +95,8 @@
 </details>  
 
 ---
-# 
+
+<h2> 📌 면접 자료</h2>
 
 <h2>
     <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/JavaScript">JavaScript</a>
@@ -152,12 +153,14 @@
 ---
 ---
 
-<h2>Reference</h2>
+<h2>📌 Reference</h2>
 <ul>
     <li>
+        <i class="far fa-address-card"></i>
         <a href="https://chanyang721.notion.site/96245a35406f46c5bf28d92056162774">My Notion Tech Blog</a> <br>
     </li>
     <li>
+        <i class="far fa-address-card"></i>
         <a href="https://gyoogle.dev/blog/guide/%EB%A9%B4%EC%A0%91%20%EC%A4%80%EB%B9%84.html">신입 개발자 전공 지식 & 기술 면접 백과사전 </a>
     </li>
     <a href=""></a>
