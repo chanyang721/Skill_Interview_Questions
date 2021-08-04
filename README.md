@@ -94,6 +94,8 @@
     </p>
 </details>  
 
+---
+# 
 
 <h2>
     <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/JavaScript">JavaScript</a>
@@ -147,7 +149,7 @@
 
 
 <h2>Reference</h2>
-<a href=""></a>
+<a href="https://github.com/JaeYeopHan/Interview_Question_for_Beginner">신입 개발자 전공 지식 & 기술 면접 백과사전 </a>
 <a href=""></a>
 <a href=""></a>
 <a href=""></a>
