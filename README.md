@@ -1,33 +1,20 @@
-
-<html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        <h1>Skill_Interview_Questions</h1>
+# Skill_Interview_Questions
 
 <h3>만든 이유</h3>
 <p>면접 준비를 시작하면서 블로깅 용도로 사용했던 노션보다 더 공개적인 gitHub에서 내가 정리한 내용에 대해서 사람들의 피드백을 받고 싶었습니다. 따로 공유하지 않으면 피드백을 받을 수 없던 노션의 아쉬운 부분을 채우고자 gitHub에서 블로깅 합니다.</p>
 <p></p>
 
-<h3>Markdown example</h3>
-<details>
-    <summary>예시</summary>
-    <p></p>
-    <p></p>
-    <p></p>
-</details>
-
-
+---
+<!-- 
 <h2> 📌 면접 과정</h2>
 
-<h3>:fire:과제 전형</h3>
+<h3>🔥과제 전형</h3>
 <p>어플리케이션 서버를 만들거나, 특정 프로그램을 작성하는 것이 과제로 나오게 된다.</p>
 <p>과제를 출제한 의도를 파악하여 그것을 이루기 위해 노력한 코딩을 해야하는 것이 일순위 목표이다. 보통 사용한 언어의 철학에 맞는 코드나, 해당 회사에서 사용하는 기술스택을 사용 할 수 있으면 적극적으로 사용한다.</p>
 <p>과제에서 사용한 기술을 처음 사용했더라도 면접에서 질문으로 나올 가능성이 높기 때문에 다음에 나오는 질문들에 대답 할 수 있어야 한다.
 <ul>
     <li>왜 이 스택 & 기술을 사용했는가 ?</li>
-    <li>이 기술 말고 다른 선택지는 없는가?</li>
+    <li>이 기술 말고 다른 선택지는 없는가 ?</li>
     <li>만약 과제에서 더 개선할 부분이 있다면 무엇인가 ?</li>
     <li>사용자를 위해 확장할 만한 서비스가 있다면 ?</li>
 </ul>
@@ -52,7 +39,7 @@
     <li>최종 답안을 내는데 시간이 얼마나 걸리는가</li>
     <li>어느 정도의 힌트를 필요로 하는가</li>
     <li>코드가 깔끔한가</li>
-</ul>
+</ul> -->
 
 <h3>🔥인터뷰 공부 방법 & 목표</h3>
 <p>문제에 대한 답을 글로 적고 소리내어 읽어보면서 정확하게 정보를 전달하고 있는지 확인한다.</p>
@@ -99,9 +86,9 @@
     </p>
 </details>  
 
+---
 
 <h2> 📌 면접 자료</h2>
-
 <h2>
     <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/JavaScript">JavaScript</a>
 </h2>
@@ -151,20 +138,24 @@
 </ul>
 
 
-<h2>📌 Reference</h2>
+---
+---
+
+<h2>Reference</h2>
 <ul>
     <li>
-        <i class="far fa-address-card"></i>
         <a href="https://chanyang721.notion.site/96245a35406f46c5bf28d92056162774">My Notion Tech Blog</a> <br>
     </li>
     <li>
-        <i class="far fa-address-card"></i>
         <a href="https://gyoogle.dev/blog/guide/%EB%A9%B4%EC%A0%91%20%EC%A4%80%EB%B9%84.html">신입 개발자 전공 지식 & 기술 면접 백과사전 </a>
     </li>
+    <li>
+    <a href="https://github.com/jobhope/TechnicalNote#top">주니어 백엔드 개발자로 살아남기</a>
+    </li>
+    <a href="https://www.boostcourse.org/cs112/joinLectures/41307">모두를 위한 컴퓨터 과학(CS50)</a>
     <a href=""></a>
     <a href=""></a>
     <a href=""></a>
-</ul>
+    <a href=""></a>
 
-</body>
-</html>
+</ul>
