@@ -152,10 +152,23 @@
     <li>
     <a href="https://github.com/jobhope/TechnicalNote#top">주니어 백엔드 개발자로 살아남기</a>
     </li>
+    <li>
     <a href="https://www.boostcourse.org/cs112/joinLectures/41307">모두를 위한 컴퓨터 과학(CS50)</a>
+    </li>
+    <li>
     <a href=""></a>
+    </li>
+    <li>
     <a href=""></a>
+    </li>
+    <li>
     <a href=""></a>
+    </li>
+    <li>
     <a href=""></a>
+    </li>
+    <li>
+    <a href=""></a>
+    </li>
 
 </ul>
