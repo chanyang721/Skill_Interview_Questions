@@ -155,7 +155,7 @@
     <li>
     <a href="https://www.boostcourse.org/cs112/joinLectures/41307">모두를 위한 컴퓨터 과학(CS50)</a>
     </li>
-    <li>
+    <!-- <li>
     <a href=""></a>
     </li>
     <li>
@@ -169,6 +169,6 @@
     </li>
     <li>
     <a href=""></a>
-    </li>
+    </li> -->
 
 </ul>
