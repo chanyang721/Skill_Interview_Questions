@@ -187,3 +187,19 @@ nest.js의 각 layer에 대해 얘기해주세요.
 select 요청이 많이 일어나는 서비스라면 어떤식으로 효율적으로 설계하실건가요.
 stateless와 stateful에대해서 설명해주셨는데 둘이 어떤차이가 있나요.
 stateless로 설계를 했을 때 어떤 장점이 있나요.
+
+
+
+왜 nodejs 는 single-threaded 인가요
+nodejs에서 callback을 설명해 보세요
+nodejs에서 비동기란 무엇인가요
+nodejs callback hell이 무엇인가요? 어떻게 이를 피할 수 있을까요?
+nodejs에서 module 이란 무엇인가요?
+nodejs에서 event loop이란 무엇인가요? 
+nodejs에서 비동기 처리를 그림으로 그려서 설명할 수 있나요?
+chrome이랑 node.js 환경 다른점
+package.json 의 역할은 무엇인가요?
+
+Restful api 란? 사용 시 장점과 단점은?
+session - cookie 방식과 토큰 방식의 차이점에 대해 이야기해보세요
+server의 역할에 대해 이야기해보세요
