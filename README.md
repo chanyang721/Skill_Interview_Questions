@@ -104,7 +104,7 @@
 </h2>
 <ul>
     <li>
-        <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/Computer%20Architecture ">Computer Architecture</a>
+        <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/Computer%20Architecture%20">Computer Architecture</a>
     </li>
     <li>
         <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/DataStructure">DataStructure</a>
