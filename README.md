@@ -96,7 +96,7 @@
 </h2>
 
 <h2>
-    <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/Design%20Pattern">Design Pattern</a>
+    <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Design%20Pattern">Design Pattern</a>
 </h2>
 
 <h2>
