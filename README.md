@@ -92,7 +92,7 @@
 </h2>
 
 <h2>
-    <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/Algorithms">Algorithms</a>
+    <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Algorithms">Algorithms</a>
 </h2>
 
 <h2>
