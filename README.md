@@ -92,11 +92,11 @@
 </h2>
 
 <h2>
-    <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/Algorithms">Algorithms</a>
+    <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Algorithms">Algorithms</a>
 </h2>
 
 <h2>
-    <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/Design%20Pattern">Design Pattern</a>
+    <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Design%20Pattern">Design Pattern</a>
 </h2>
 
 <h2>
@@ -104,7 +104,7 @@
 </h2>
 <ul>
     <li>
-        <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/Computer%20Architecture ">Computer Architecture</a>
+        <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/Computer%20Architecture%20">Computer Architecture</a>
     </li>
     <li>
         <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/Computer%20Science/DataStructure">DataStructure</a>
