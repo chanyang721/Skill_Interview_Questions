@@ -6,12 +6,102 @@
   -> let은 변수의 재할당이 가능하다는 장점을 가지고 있지만, 이는 같은 변수 이름을 다르게 사용할 경우 에러의 가능성이 있기 때문에 const를 사용하는 것이 에러 발생을 줄일 수 있다고 생각합니다. 
 
 ### 호이스팅 (Hoisting)이 무엇인지 설명해주세요 (중요) <br>
+* Hoist는 "끌어올리기" 라는 뜻으로, 자바스크립트 코드에서 작성된 순서와 상관없이 가장 먼저 선언되는 것을 호이스팅이라고 합니다. 
+* 이러한 특징은 자바스크립트 엔진 구동시 선언을 가장 최우선으로 해석하기 때문에 발생합니다.
+* 예를 들면 변수 선언문 중 var 키워드로 선언된 모든 변수와 함수 선언식은 자동적으로 호이스팅의 대상이 됩니다. 하지만, var로 선언된 변수의 할당된 값은 호이스팅의 대상이 아니기 때문에 변수에는 undefined 할당되어 호이스팅 됩니다.
+* 변수에 할당은 런타임 과정에서 이루어 지기 때문에 호이스팅의 대상이 아닙니다.
 
 ### 클로저 (Closure) (중요) <br>
-* 클로저란 함수와 함수가 선언된 어휘적 환경의 조합으로, 이 어휘적 환경은 함수가 선언된 시점에서 접근 가능한 모든 지역 변수로 구성됩니다. 
+* 클로저란 두 개의 함수가 선언된 어휘적 환경의 조합으로, 이 어휘적 환경은 함수가 선언된 시점에서 접근 가능한 모든 지역 변수로 구성됩니다. 
 * 따라서 클로저 함수란, 외부 함수의 변수에 접근할 수 있는 내부 함수를 말하며, 내부 함수에서는 지역 변수, 외부 함수의 변수, 전역 변수를 모두 사용할 수 있는 어휘적 환경을 가지게 됩니다.
+* 자바사크립트에서 클로저의 역할은 변수와 메서드의 공개/비공개 여부를 결정하기 위한 방법입니다.
+* 클로저를 생성하기 위한 조건으로는
+1. 내부 함수가 익명 함수로서 외부함수의 return 값으로 사용되는 경우
+```js
+function outer() {
+  let name = `clouser`;
+  return function () {
+    console.log(name)
+  }
+}
+```
+2. 내부 함수가외부 함수의 실행 환경에서 실행되는 경우
+```js
+function outer() {
+  let name = `closure`;
+  function inner() {
+    console.log(name);
+  }
+  inner(); 
+}
+outer();
+// console> closure
+```
+3. 내부 함수의 환경에서 사용되는 변수가 외부 함수의 변수 스코프를 가지는 경우
+```js
+let name = `Warning`;
+function outer() {
+  let name = `closure`;
+  return function inner() {
+    console.log(name);
+  };
+}
 
-### this 관련 질문 (아는 대로 설명해주세요, 함수를 선언하고 내부에 let a,b 선언하고 this.a를 호출할때의 상황에서 설명해주세요.) (중요) <br>
+let callFunc = outer();
+callFunc();
+// console> closure
+```
+### this에 대해 아는 대로 설명해주세요. 함수를 선언하고 내부에 let a,b 선언하고 this.a를 호출할때의 상황에서 설명해주세요.) (중요) <br>
+* 자바스크립트의 함수는 객체 타입으로 선언될 때마다 함수 내부에 암묵적으로 this라는 객체가 추가됩니다.
+```js
+/// 암묵적인 규칙 ///
+function User(name) {
+// this = {}; ⇒ 빈 객체가 만들어진다.
+  this.name = name;
+// return this ⇒ this가 반환된다.  
+}
+
+const user = new User("John")
+user // ⇒ {name: "John"}
+```
+* 그렇기 때문에 this는 함수가 호출되는 상황에 따라 this의 값이 변하게 됩니다.
+1. 객체(A)의 메서드(B) 호출 시, this는 A.B에서 A가 this가 됩니다. 
+```js
+const Obj = {
+  name: "chanyang",
+  sayName: function () {
+    console.log(this)
+  }
+}
+```
+2. 함수 호출 시, A.B의 구조가 있으면 this는 A에 바인딩되지만, A.B의 구조가 없다면 전역 객체에 바인딩 됩니다.
+```js
+var value = 1000;
+const Obj = {
+  value: 10,
+  func1: function () {
+    console.log(`func1's this.value: ${this.value}`);
+
+    let func2 = function () {
+      console.log(`func2's this.value: ${this.value}`)
+    }
+    func2();
+  }
+}
+Obj.func1();
+// func1's this.value: 10
+// func2's this.value: 1000
+```
+3. new 키워드로 생성자 함수를 호출하여 인스턴스 생성 시, this는 생성된 인스턴스가 됩니다.
+```js
+let Person = function (name) {
+  console.log(this);
+  this.name = name;
+}
+
+let student = new Person("chanyang");
+console.log(student.name) // "chanyang"
+```
 
 ### 원시값, 참조값 차이 및 개념 (중요) <br>
 
