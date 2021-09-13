@@ -152,9 +152,9 @@ MVC 패턴에 대해서 알고있나요? 설명해주세요.
 
 
 ### REST API가 무엇인지 설명해주세요.
-* REST는 Representational State Transfer의 약자이고 API는 Application Programming Interface의 약자입니다. 우선 API는 사람이 가게에가서 음료수를 주문할 경우에 보는 매뉴판에 비교할 수 있으며, 이는 사람이 아닌 프로그램 간 주문하기 위한 매뉴판입니다. 
+* REST는 Representational State Transfer의 약자이고 API는 Application Programming Interface의 약자입니다. 우선 API는 사람이 가게에 가서 음료수를 주문하는 경우에 보게 되는 매뉴판에 비교할 수 있으며, 사람이 아닌 프로그램 간 주문하기 위한 매뉴판을 API라고 합니다.
 * 앞에 REST라는 단어가 붙은 이유는 프로그램 간 사용하는 매뉴판이지만 결국 사람이 작성하고 읽어야 하기 때문에 서로간에 작성 규칙을 적용하여 누가 읽어도 이해할 수 있도록 하기 위해서 입니다. 따라서, RESTful 하다는 말은 이 규칙이 잘 적용된 REST API를 뜻합니다. 
-* REST의 가장 중요한 특징은 각 요청(주문)은 그 "요청 자체로 어떤 기능을 하는지 추론이 가능해야한다"라는 원칙을 가지고 있습니다. 이를 위해 API 요청을 구성하는 자원(resource)을 URL, 행위(Verb)를 HTTP Method, 그리고 표현(Representations)으로 구분하였고, 각각 규칙을 만들어 알맞게 적용한 API를 RESTful API라고 합니다.
+* REST의 가장 중요한 특징은 각 요청(주문)은 "요청 자체로 어떤 기능을 하는지 추론이 가능해야한다"라는 원칙을 가지고 있습니다. 이를 위해 API 요청을 구성하는 자원(resource)을 URL, 행위(Verb)를 HTTP Method, 그리고 표현(Representations)으로 구분하였고, 각각 규칙을 만들어 알맞게 적용한 API를 RESTful API라고 합니다.
 <!-- * REST의 특징은 총 6가지로 나눌 수 있습니다.
 * 첫번쨰는 유니폼 인터페이스입니다. 유니폼 인터페이스는 URL에 대한 형식을 통일하고, 요청의 행위(Verb)에 적합한 HTTP Method를 사용하여 해당 URL로 접근한다는 원칙입니다. 
 * URL 형식 통일에 대한 예시로, URL 마지막에 "/"사용 금지, "_"(underbar)대신 "-"(dash)을 최소한으로 사용, 소문자로 통일, 행위인 HTTP Method를 자원인 URL에 넣는것 금지와 같은 것이 있습니다. 
