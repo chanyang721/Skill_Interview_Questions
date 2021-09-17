@@ -1,4 +1,4 @@
-### OSI 7, 5 layer 네트워크 에 대해서 들어보셨다면 설명해 주시겠어요
+<!-- ### OSI 7, 5 layer 네트워크 에 대해서 들어보셨다면 설명해 주시겠어요
 
 ### CDN의 장점과 단점에 대해 알고 계신가요
 
@@ -16,4 +16,4 @@
 
 ### CI/CD에 대해 들어보셨나요? 소개해 주세요
 
-### monolithic vs micro service architecture
+### monolithic vs micro service architecture -->

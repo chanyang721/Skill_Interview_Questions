@@ -1,4 +1,4 @@
-### array vs linkedlist 비교해서 설명해 보세요
+<!-- ### array vs linkedlist 비교해서 설명해 보세요
 
 ### stack vs queue 비교해서 설명해 주세요
 
@@ -14,4 +14,4 @@
 
 ### quick sort가 일어나는 과정 설명
 
-### DFS vs BFS?
+### DFS vs BFS? -->
