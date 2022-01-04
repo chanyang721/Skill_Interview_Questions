@@ -7,7 +7,7 @@
 <p>코드를 테스트하는 연습을 통해 오류 코드를 찾아내야한다.</p>
 
 <h4>📝풀이 순서</h4>
-<p>1. 문제 이해</p> 
+<p>1. 문제 이해</p>
 <p>2. 시간 복잡도를 생각하지 않고 풀기</p>
 <p>3. 중복된 & 필요없는 코드를 삭제한다.</p>
 <p>4. 코드를 처음부터 실수가 없는지 검토한다.</p>
@@ -62,13 +62,13 @@
                 <li>Dynamic programming (다이나믹 프로그래밍)</li>
                 <li>big-O (시간 복잡도)</li>
              </ul>
-        </div>  
+        </div>
     </p>
 </details>   -->
 
 ---
 
-<h2> 📌 면접 자료</h2>
+<h2> 📌 TIL </h2>
 <h2>
     <a href="https://github.com/chanyang721/Skill_Interview_Questions/tree/main/JavaScript">JavaScript</a>
 </h2>
@@ -117,8 +117,8 @@
     </li>
 </ul>
 
-
 ---
+
 ---
 
 <h2>Reference</h2>
