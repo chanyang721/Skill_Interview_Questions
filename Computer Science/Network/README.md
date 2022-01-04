@@ -30,20 +30,14 @@ OSI(Open Systems Interconnection)란 개방형 시스템의 줄임말로, 개방
 
 또한, 위의 예시는 하나의 전송인 경우이지만, 실제로는 무수히 많은 데이터 전송이 있기 때문에 데이터 링크 계층에서는 이를 제어하기 위해 프레이밍, 흐름 제어, 오류 제어, 접근 제어, 동기화화 같은 역할을 동시에 수행하게 된다.
 
-### CDN의 장점과 단점에 대해 알고 계신가요
+### CDN의 장점과 단점
 
-### forward proxy vs reverse proxy?
+### forward proxy vs reverse proxy
 
-### 왜 배포(deploy) 가 중요한가요? 웹개발자가 알아야 하는 이유가 무엇일까요?
-
-### 사용해 본 클라우드 인프라 서비스에 대해 소개해 주세요
-
-### AWS S3, EC2 서비스 블록에 대해 설명해 주세요
-
-### DNS에 대해 설명해 주세요
-
-### 본인이 가장 즐겨 사용하는 클라우드 서비스 블록에 대해 설명해 주세요
+### 배포(deploy)란 무엇이고, 왜 하는 것인가?
 
 ### CI/CD에 대해 들어보셨나요? 소개해 주세요
+
+### DNS
 
 ### monolithic vs micro service architecture
