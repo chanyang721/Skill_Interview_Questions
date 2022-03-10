@@ -1,0 +1,170 @@
+### 전체 파일 구조
+
+- **Example**
+    
+    ```
+    📦express_grapql_typeorm
+    ┣ 📂__tests__
+    ┣ 📂src
+    ┃ ┣ 📂config
+    ┃ ┃ ┗ 📜index.ts
+    ┃ ┣ 📂database
+    ┃ ┃ ┣ 📂entities
+    ┃ ┃ ┣ 📂seeds
+    ┃ ┃ ┗ 📜BaseRepository.ts
+    ┃ ┣ 📂domain
+    ┃ ┃ ┗ 📂user
+    ┃ ┃ ┃ ┣ 📂types
+    ┃ ┃ ┃ ┃ ┗ 📜userInput.ts
+    ┃ ┃ ┃ ┣ 📜user.repository.ts
+    ┃ ┃ ┃ ┣ 📜user.resolver.ts
+    ┃ ┃ ┃ ┗ 📜user.service.ts
+    ┃ ┣ 📂helpers
+    ┃ ┃ ┣ 📂aws
+    ┃ ┃ ┃ ┣ 📜ses.ts
+    ┃ ┃ ┃ ┗ 📜sms.ts
+    ┃ ┃ ┣ 📂env
+    ┃ ┃ ┃ ┗ 📜index.ts
+    ┃ ┃ ┣ 📂error
+    ┃ ┃ ┃ ┣ 📜baseError.ts
+    ┃ ┃ ┃ ┣ 📜errorMessageTypes.ts
+    ┃ ┃ ┃ ┗ 📜httpStatusCodes.ts
+    ┃ ┃ ┣ 📂middlewares
+    ┃ ┃ ┃ ┣ 📜auth.ts
+    ┃ ┃ ┃ ┗ 📜isToken.ts
+    ┃ ┃ ┗ 📂utils
+    ┃ ┃ ┃ ┣ 📜jwt.ts
+    ┃ ┃ ┃ ┗ 📜password.ts
+    ┃ ┣ 📂loaders
+    ┃ ┃ ┣ 📜apolloExpress.ts
+    ┃ ┃ ┣ 📜connect.ts
+    ┃ ┃ ┗ 📜index.ts
+    ┃ ┣ 📜app.ts
+    ┃ ┗ 📜schema.gql
+    ┣ 📜.dev.env
+    ┣ 📜.dockerignore
+    ┣ 📜.env.example
+    ┣ 📜.gitignore
+    ┣ 📜Dockerfile
+    ┣ 📜README.md
+    ┣ 📜buildspec.yaml
+    ┣ 📜ormconfig.json
+    ┣ 📜package-lock.json
+    ┣ 📜package.json
+    ┗ 📜tsconfig.json
+    ```
+    
+
+---
+
+### src 파일 구조
+
+```
+📦src
+ ┣ 📂config
+ ┣ 📂database
+ ┣ 📂domain
+ ┣ 📂helpers
+ ┣ 📂loaders
+ ┣ 📜app.ts
+ ┗ 📜schema.gql
+```
+
+- `config`: 추가 환경 변수 저장 파일
+    
+    ```
+    ┣ 📂config
+    ┃ ┗ 📜index.ts
+    ```
+    
+- `database`: entity 정의 파일
+    
+    ```
+    ┣ 📂database
+    ┃ ┣ 📂entities
+    ┃ ┣ 📂seeds
+    ┃ ┗ 📜BaseRepository.ts
+    ```
+    
+- `domain`: 도메인 별 각 계층 파일
+    
+    
+- `helpers`: 서버 구축에 도움이 되는 함수 모음
+    
+    ```
+    ┣ 📂helpers
+    ┃ ┣ 📂aws
+    ┃ ┃ ┣ 📜ses.ts
+    ┃ ┃ ┗ 📜sms.ts
+    ┃ ┣ 📂env
+    ┃ ┃ ┗ 📜index.ts
+    ┃ ┣ 📂error
+    ┃ ┃ ┃ ┣ 📜baseError.ts
+    ┃ ┃ ┃ ┣ 📜errorMessageTypes.ts
+    ┃ ┃ ┃ ┗ 📜httpStatusCodes.ts
+    ┃ ┃ ┣ 📂middlewares
+    ┃ ┃ ┃ ┣ 📜auth.ts
+    ┃ ┃ ┃ ┗ 📜isToken.ts
+    ┃ ┃ ┗ 📂utils
+    ┃ ┃ ┃ ┣ 📜jwt.ts
+    ┃ ┃ ┃ ┗ 📜password.ts
+    ```
+    
+- `loaders`: 서버 로드에 필요한 함수 모음
+    
+    ```
+    ┣ 📂loaders
+    ┃ ┣ 📜apolloExpress.ts
+    ┃ ┣ 📜connect.ts
+    ┃ ┗ 📜index.ts
+    ```
+    
+- `app.ts`: 서버 실행 파일
+- `schema.gql`: gql 자동 생성 파일
+
+위에 보이는 파일 구조는 Nest에서 주장하는 express의 Best practice 파일 구조를 express로 구현하였다. 특히 다른 부분은 계층별로 파일을 구분하는 것이 아닌 domain 별로 파일을 모아두는 방식이라고 생각된다. 
+
+---
+
+---
+
+### 서버에 필요한 구성 ?
+
+Server는 Client와 원활한 소통을 하기 위한 다양한 장치들이 필요하다. 가장 기본이 되는 Request, Response를 처리하기 위한 Layers를 구성하는 것부터, 처리 과정 중 발생하는 소통 오류를 빠르게 수정하기 위한 장치들이 필요하다.
+
+매우 간결하게 요약을 해본다면 아래와 같은 작업들이 필요하며, GraphQL - Express 서버를 구축하면서 문서화를 통해 그 과정을 남길 예정이다
+
+- Client’s Request and Response process
+    - Controller Layer
+    - Service Layer
+    - Repository Layer
+- 서버 구동 환경에 따른 환경 변수 처리
+    - dev, test, prod environment
+- 요청에 대한 결과 로깅
+    - logging process
+- 처리 과정 중 발생하는 에러에 대한 처리
+    - error control process
+
+---
+
+---
+
+### 초기 설정
+
+[package.json & tsconfig.json](https://www.notion.so/package-json-tsconfig-json-ae374336db5e4ea3a25d8b8f87c65498)
+
+[tsconfig.json](https://www.notion.so/tsconfig-json-bd533b9f54c34303b2dbc93d9c809846)
+
+[.gitignore](https://www.notion.so/gitignore-6137d78f6cae4c21a3872a67d5aa5d49)
+
+[.env](https://www.notion.so/env-3bf9ac103c0d4c199bd0867f3dbf7995)
+
+eslint, prettier
+
+---
+
+---
+
+### 서버 실행 파일
+
+[app.ts](https://www.notion.so/app-ts-86c39d77ce2944988073cea2ea708026)
